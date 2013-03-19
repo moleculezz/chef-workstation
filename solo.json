@@ -1,0 +1,8 @@
+{
+  "run_list": [ 
+    "recipe[workstation]",
+    "recipe[chef-solo-search]",
+    "recipe[users::sysadmins]",
+    "recipe[git]"
+  ]
+}
