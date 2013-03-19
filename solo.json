@@ -1,8 +1,8 @@
 {
   "run_list": [ 
     "recipe[workstation]",
+    "recipe[workstation::git]",
     "recipe[chef-solo-search]",
-    "recipe[users::sysadmins]",
-    "recipe[git]"
+    "recipe[users::sysadmins]"
   ]
 }
