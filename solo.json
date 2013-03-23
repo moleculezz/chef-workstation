@@ -6,6 +6,7 @@
     "recipe[users::sysadmins]",
     "recipe[workstation]",
     "recipe[workstation::git]",
+    "recipe[workstation::ssh-ident]",
     "recipe[workstation::rbenv]"
   ]
 }
