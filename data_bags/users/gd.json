@@ -1,18 +1,13 @@
 {
   "groups": [
-    "gd",
     "sudo",
-    "cdrom",
-    "floppy",
-    "plugdev",
-    "sambashare",
     "sysadmin"
   ],
-  "comment": "G. Arends",
-  "email": "gdarends@gmail.com",
-  "id": "gd",
+  "comment": "",
+  "email": "",
+  "id": "",
   "uid": 1000,
-  "shell": "\/bin\/bash",
+  "shell": "/bin/bash",
   "files": {
     ".gitconfig": {
       "mode": "0664",
