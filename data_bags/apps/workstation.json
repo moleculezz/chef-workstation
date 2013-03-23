@@ -1,5 +1,4 @@
 {
   "id": "workstation",
-  // List of packages and their versions (if any) installed on Linux
   "packages": ["ack", "htop"]
 }
