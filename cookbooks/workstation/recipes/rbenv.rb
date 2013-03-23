@@ -1,7 +1,7 @@
 begin
-  u = data_bag_item('users', Etc.getlogin)
+  u = data_bag_item("users", Etc.getlogin)
 rescue Net::HTTPServerException => e
-  Chef::Application.fatal!('#{cookbook_name} could not load data bag; #{e}')
+  Chef::Application.fatal!("#{cookbook_name} could not load data bag; #{e}")
 end
 
 node.default["rbenv"]["group_users"] = ["#{u['id']}"]
