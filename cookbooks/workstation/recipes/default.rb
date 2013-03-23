@@ -1,5 +1,3 @@
-include_recipe "users"
-
 begin
   wk = data_bag_item("apps","workstation")
 rescue Net::HTTPServerException => e
