@@ -7,6 +7,7 @@
     "recipe[workstation]",
     "recipe[workstation::git]",
     "recipe[workstation::ssh-ident]",
-    "recipe[workstation::rbenv]"
+    "recipe[workstation::rbenv]",
+    "recipe[workstation::nginx]"
   ]
 }

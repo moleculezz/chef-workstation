@@ -5,3 +5,4 @@ description "Configures Linux workstations"
 version "0.1.0"
 
 depends "rbenv"
+depends "nginx"
