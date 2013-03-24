@@ -6,3 +6,4 @@ version "0.1.0"
 
 depends "rbenv"
 depends "nginx"
+depends "php"
