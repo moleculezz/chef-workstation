@@ -1,5 +1,14 @@
 {
   "default_attributes": {
+    "workstation": {
+      "mysql_user": "secret",
+      "mysql_pass": "secret" 
+    }
+  },
+  "mysql": {
+    "server_root_password": "supersecret",
+    "server_repl_password": "supersecret",
+    "server_debian_password": "supersecret"
   },
   "run_list": [ 
     "recipe[chef-solo-search]",
@@ -9,6 +18,9 @@
     "recipe[workstation::ssh-ident]",
     "recipe[workstation::rbenv]",
     "recipe[workstation::nginx]",
-    "recipe[workstation::php-fpm]"
+    "recipe[workstation::php-fpm]",
+    "recipe[mysql::ruby]",
+    "recipe[mysql::server]",
+    "recipe[workstation::mysql]"
   ]
 }
