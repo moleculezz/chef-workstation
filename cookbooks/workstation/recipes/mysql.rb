@@ -1,3 +1,6 @@
+include_recipe "mysql::ruby"
+include_recipe "mysql::server"
+
 connection_info = {:host => "localhost", :user => "root", :password => node['mysql']['server_root_password']}
 
 # create a mysql user but grant no privileges
