@@ -1,4 +1,13 @@
 {
   "id": "workstation",
-  "packages": ["ack", "htop"]
+  "packages": ["ack-grep", "htop"],
+  "sublime_packages": [
+    {"name": "zenburn", "source": "https://github.com/colinta/zenburn.git", "reference": "master"},
+    {"name": "LESS", "source": "https://github.com/danro/LESS-sublime.git", "reference": "master"},
+    {"name": "LineEndings", "source": "https://github.com/SublimeText/LineEndings.git", "reference": "master"},
+    {"name": "EasyMotion", "source": "https://github.com/tednaleid/sublime-EasyMotion.git", "reference": "master"},
+    {"name": "LoremText", "source": "https://github.com/ccpalettes/sublime-lorem-text.git", "reference": "master"},
+    {"name": "Emmet", "source": "https://github.com/sergeche/emmet-sublime.git", "reference": "master"}
+
+  ]
 }
