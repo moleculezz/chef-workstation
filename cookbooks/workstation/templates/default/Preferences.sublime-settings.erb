@@ -1,9 +1,33 @@
 {
-	"color_scheme": "Packages/zenburn/zenburn.tmTheme",
-	"default_line_ending": "unix",
-	"draw_white_space": "all",
-	"font_face": "Consolas",
-	"font_size": 13.0,
-	"highlight_line": true,
-	"ignored_packages": ["Vintage"]
+    // Sets the colors used within the text area
+    "color_scheme": "Packages/zenburn/zenburn.tmTheme",
+    
+    // Determines what character(s) are used to terminate each line in new files.
+    // Valid values are 'system' (whatever the OS uses), 'windows' (CRLF) and
+    // 'unix' (LF only).
+    "default_line_ending": "unix",
+
+    // Set to "none" to turn off drawing white space, "selection" to draw only the
+    // white space within the selection, and "all" to draw all white space
+    "draw_white_space": "all",
+
+    // Note that the font_face and font_size are overriden in the platform
+    // specific settings file, for example, "Preferences (Linux).sublime-settings".
+    // Because of this, setting them here will have no effect: you must set them
+    // in your User File Preferences.
+    "font_face": "Consolas",
+    "font_size": 13.0,
+
+    // If enabled, will highlight any line with a caret
+    "highlight_line": true,
+
+    // The number of spaces a tab is considered equal to
+    "tab_size": 4,
+
+    // Set to true to insert spaces when tab is pressed
+    "translate_tabs_to_spaces": true,
+
+    // List any packages to ignore here. When removing entries from this list,
+    // a restart may be required if the package contains plugins.
+    "ignored_packages": ["Vintage"]
 }
