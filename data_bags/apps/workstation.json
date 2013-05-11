@@ -7,7 +7,9 @@
     {"name": "LineEndings", "source": "https://github.com/SublimeText/LineEndings.git", "reference": "master"},
     {"name": "EasyMotion", "source": "https://github.com/tednaleid/sublime-EasyMotion.git", "reference": "master"},
     {"name": "LoremText", "source": "https://github.com/ccpalettes/sublime-lorem-text.git", "reference": "master"},
-    {"name": "Emmet", "source": "https://github.com/sergeche/emmet-sublime.git", "reference": "master"}
-
+    {"name": "Emmet", "source": "https://github.com/sergeche/emmet-sublime.git", "reference": "master"},
+    {"name": "AdvancedNewFile", "source": "https://github.com/skuroda/Sublime-AdvancedNewFile.git", "reference": "master"},
+    {"name": "Prefixr", "source": "https://github.com/wbond/sublime_prefixr.git", "reference": "master"},
+    {"name": "SideBarEnhancements", "source": "https://github.com/titoBouzout/SideBarEnhancements.git", "reference": "master"}
   ]
 }
